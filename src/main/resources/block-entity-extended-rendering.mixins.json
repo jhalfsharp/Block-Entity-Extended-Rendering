@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.jimbot6000.blockentityextendedrendering.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "RenderDistanceIncrease"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
