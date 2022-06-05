@@ -6,7 +6,9 @@
   "name": "Block Entity Extended Rendering",
   "description": "This mod allows you to increase the render distance of block entities.",
   "authors": [
-    "jimbot6000"
+    "jimbot6000",
+    "IceAlin",
+    "SyberiaK"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/beer",
