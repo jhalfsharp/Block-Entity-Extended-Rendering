@@ -9,7 +9,7 @@
     "jimbot6000"
   ],
   "contact": {
-    "homepage": "https://github.com/jimbot6000/Block-Entity-Extended-Rendering",
+    "homepage": "https://modrinth.com/mod/beer",
     "sources": "https://github.com/jimbot6000/Block-Entity-Extended-Rendering.git",
     "issues": "https://github.com/jimbot6000/Block-Entity-Extended-Rendering/issues"
   },
@@ -17,7 +17,7 @@
   "license": "MIT",
   "icon": "assets/block-entity-extended-rendering/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "net.jimbot6000.blockentityextendedrendering.BlockEntityExtendedRendering"
