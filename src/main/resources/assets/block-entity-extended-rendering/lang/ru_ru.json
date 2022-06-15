@@ -1,5 +1,8 @@
 {
-  "beer.option.distance": "Дистанция прорисовк блоков-сущностей",
+  "beer.option.distance": "Дистанция прорисовки блоков-сущностей",
   "beer.text.apply": "Применить",
-  "beer.screen.config": "Настройки Block Entity Enhanced Rendering"
+  "beer.screen.config": "Настройки Block Entity Enhanced Rendering",
+
+  "modmenu.summaryTranslation.block-entity-extended-rendering": "Этот мод позволяет увеличить дистанцию прорисовки блоков-сущностей.",
+  "modmenu.descriptionTranslation.block-entity-extended-rendering": "Этот мод позволяет увеличить дистанцию прорисовки блоков-сущностей."
 }
