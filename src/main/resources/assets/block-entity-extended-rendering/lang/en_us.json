@@ -1,5 +1,8 @@
 {
   "beer.option.distance": "Block Entity Render Distance",
   "beer.text.apply": "Apply",
-  "beer.screen.config": "Block Entity Enhanced Rendering config"
+  "beer.screen.config": "Block Entity Enhanced Rendering config",
+
+  "modmenu.summaryTranslation.block-entity-extended-rendering": "This mod allows you to increase the render distance of block entities.",
+  "modmenu.descriptionTranslation.block-entity-extended-rendering": "This mod allows you to increase the render distance of block entities."
 }
