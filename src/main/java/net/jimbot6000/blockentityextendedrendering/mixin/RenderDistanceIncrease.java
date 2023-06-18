@@ -12,6 +12,10 @@ import java.util.Properties;
 @Mixin(BlockEntityRenderer.class)
 public interface RenderDistanceIncrease extends GetDistanceInterface {
 
+	/**
+	* Changes from a hard-coded 64 blocks to a configurable value.
+	* @author jimbot6000
+	*/
 	@Overwrite
 	default int getRenderDistance() {
 		Properties config = new Properties();

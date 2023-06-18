@@ -11,7 +11,7 @@ import java.util.Properties;
 public class BEERConfig {
     public static final String BLOCK_ENTITY_RENDER_DISTANCE_KEY = "block_entity_render_distance";
 
-    public int BLOCK_ENTITY_RENDER_DISTANCE = 128;
+    public int BLOCK_ENTITY_RENDER_DISTANCE = 256;
 
     public void writeTo(Properties properties) {
         properties.setProperty(BLOCK_ENTITY_RENDER_DISTANCE_KEY, Integer.toString(BLOCK_ENTITY_RENDER_DISTANCE));

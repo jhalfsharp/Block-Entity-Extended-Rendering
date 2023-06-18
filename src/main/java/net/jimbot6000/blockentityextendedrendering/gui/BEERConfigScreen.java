@@ -6,8 +6,8 @@ import dev.lambdaurora.spruceui.screen.SpruceScreen;
 import dev.lambdaurora.spruceui.widget.SpruceButtonWidget;
 import dev.lambdaurora.spruceui.widget.container.SpruceOptionListWidget;
 import net.jimbot6000.blockentityextendedrendering.BlockEntityExtendedRendering;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
 
@@ -36,7 +36,7 @@ public class BEERConfigScreen extends SpruceScreen {
         // Button list.
         SpruceOptionListWidget list = new SpruceOptionListWidget(Position.of(0, 22), this.width, this.height - 35 - 22);
         list.addSingleOptionEntry(new SpruceDoubleOption("beer.option.distance",
-                32.0, 512.0, 16.f,
+                32.0, 512.0, 32.f,
                 () -> Double.valueOf(config.getProperty(BEERConfig.BLOCK_ENTITY_RENDER_DISTANCE_KEY)),
                 newValue -> config.setProperty(BEERConfig.BLOCK_ENTITY_RENDER_DISTANCE_KEY, String.valueOf(newValue.intValue())),
                 option -> option.getDisplayText(Text.of(String.valueOf(config.getProperty(BEERConfig.BLOCK_ENTITY_RENDER_DISTANCE_KEY)))),
@@ -58,7 +58,7 @@ public class BEERConfigScreen extends SpruceScreen {
     }
 
     @Override
-    public void renderTitle(MatrixStack matrices, int mouseX, int mouseY, float delta) {
-        drawCenteredText(matrices, this.textRenderer, this.title, this.width / 2, 8, 16777215);
+    public void renderTitle(DrawContext graphics, int mouseX, int mouseY, float delta) {
+        graphics.drawCenteredTextWithShadow(this.textRenderer, this.title, this.width / 2, 8, 16777215);
     }
 }
