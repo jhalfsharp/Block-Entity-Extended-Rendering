@@ -15,7 +15,7 @@ FoundationGames's Enhanced Block Entities mod is highly recommended as well. Not
 All items on this list are planned eventually.
 - [x] 1.18 compatibility
 - [x] 1.19 compatibility
-- [ ] 1.20 compatibility
+- [x] 1.20 compatibility
 - [ ] Config through video settings
 - [x] Config through Mod Menu
 - [ ] Config through Reese's Sodium Options
